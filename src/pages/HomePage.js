@@ -6,7 +6,7 @@ const HomePage = () => (
   <>
     <div className="header">
       <h1>ThankFul Journal</h1>
-      <h2>The sources of all your happiness stored in one place!</h2>
+      <h2>The source of all your happiness is stored in one place!</h2>
     </div>
     <div className="home-container">
       <div className="text-container">
