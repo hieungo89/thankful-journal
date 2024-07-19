@@ -5,15 +5,15 @@ import shiningLight from "../images/shiningLight.png";
 const HomePage = () => (
   <>
     <div className="header">
-      <h1>My Thankful Journal</h1>
+      <h1>ThankFul Journal</h1>
       <h2>The sources of all your happiness stored in one place!</h2>
     </div>
     <div className="home-container">
       <div className="text-container">
         <h2 className="heading-a">Spill Your Thoughts!</h2>
         <p>
-          Welcome to My Thankful Journal - a space designed for your chaotic
-          mind and immense gratitude. Here, you can let your thoughts run wild,
+          Welcome to Thankful Journal - a space designed for your chaotic mind
+          and immense gratitude. Here, you can let your thoughts run wild,
           record them and discover the power of positivity.
         </p>
       </div>
@@ -23,9 +23,8 @@ const HomePage = () => (
       <div className="text-container">
         <h2>Journal: Record, Reflect, Repeat</h2>
         <p>
-          Everyone has a story. My Thankful Journal provides you with the
-          perfect canvas to paint yours, enabling an intimate process of
-          self-reflection
+          Everyone has a story. Thankful Journal provides you with the perfect
+          canvas to paint yours, enabling an intimate process of self-reflection
         </p>
       </div>
       <img src={hand} alt="hand" />

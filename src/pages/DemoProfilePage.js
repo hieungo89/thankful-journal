@@ -61,7 +61,7 @@ const DemoProfilePage = () => {
 
   return (
     <div id="demo">
-      <h1>My Thankful Journal Profile Page &#40;Demo&#41;</h1>
+      <h1>Thankful Journal Profile Page &#40;Demo&#41;</h1>
       <div className="journal-container">
         <div className="journal-content">
           <h2>View Journal Entries</h2>

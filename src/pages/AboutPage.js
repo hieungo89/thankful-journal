@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const AboutPage = () => (
   <div className="page-body">
-    <h1>About My ThankFul Journal</h1>
+    <h1>About ThankFul Journal</h1>
     <p>
-      My Thankful Journal is dedicated to the users by allowing them to express
+      Thankful Journal is dedicated to the users by allowing them to express
       their positivity and improve their mood. Users are encouraged to continue
       to write about what makes them happy with guided prompts. Users that
       struggle to find inspirations are encouraged to visit the
