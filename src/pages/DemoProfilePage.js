@@ -8,7 +8,7 @@ const DemoProfilePage = () => {
 
   const getJournalEntries = () => {
     axios
-      .get("/api/entries/")
+      .get("http://44.241.59.183:8000/api/entries/")
       .then((response) => {
         const data = response.data;
         setJournalData(data);
@@ -25,7 +25,7 @@ const DemoProfilePage = () => {
 
   const recordJournalEntry = () => {
     const title = document.getElementById("journal-title").value;
-    const content = document.querySelector("[contenteditable]").innerHTML;
+    const content = document.getElementById("journal-text").innerHTML;
     if (!title)
       return alert(
         "You don't have a title. It is important to give your wonderful day a title so you have a good reference to remember it by!",
@@ -36,7 +36,7 @@ const DemoProfilePage = () => {
       );
 
     axios
-      .post("/api/entries/", { title, content })
+      .post("http://44.241.59.183:8000/api/entries/", { title, content })
       .then((response) => getJournalEntries())
       .catch((error) =>
         console.log("error processing entry: ", error.response),
@@ -50,7 +50,9 @@ const DemoProfilePage = () => {
   };
 
   const deleteEntry = (id) => {
-    axios.delete(`/api/entries/${id}/`).then((response) => getJournalEntries());
+    axios
+      .delete(`http://44.241.59.183:8000/api/entries/${id}/`)
+      .then((response) => getJournalEntries());
   };
 
   useEffect(() => {
@@ -108,9 +110,11 @@ const DemoProfilePage = () => {
               </div>
 
               <div className="box writing">
-                <div className="textarea" contentEditable="true">
-                  Start Here...
-                </div>
+                <div
+                  className="textarea"
+                  id="journal-text"
+                  contentEditable="plaintext-only"
+                ></div>
               </div>
               <div className="btn-container">
                 <button

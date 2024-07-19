@@ -34,10 +34,10 @@ const HomePage = () => (
       <img src={shiningLight} alt="shining light" />
       <div className="text-container">
         <h2>Thankful List: Cherish the Little Joys</h2>
-        <p3>
-          Meaningful moments make up life. List what you’re thankful for and
+        <p>
+          Meaningful moments make up life. List what you&#39;re thankful for and
           discover how little moments of joy add a world of happiness.
-        </p3>
+        </p>
       </div>
     </div>
     <div className="subscribe">
