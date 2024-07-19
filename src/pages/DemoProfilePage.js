@@ -54,10 +54,8 @@ const DemoProfilePage = () => {
   };
 
   useEffect(() => {
-    if (!journalData.length) {
-      return getJournalEntries();
-    }
-  }, [journalData]);
+    getJournalEntries();
+  }, []);
 
   return (
     <div id="demo">
