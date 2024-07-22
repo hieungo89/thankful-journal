@@ -2,6 +2,8 @@
 
 <p align="center">By Hieu Ngo</p>
 
+### <ins>Project is currently built as a demo version. It is not meant for public usage. </ins>
+
 ## About the Project
 
 > Welcome to our Positive Memory Journal!
@@ -13,7 +15,9 @@
 
 Join our community and start journaling your positive memories today!
 
-> Behind the scene features included in the app:
+<img width="1874" alt="thankfulJournalHome" src="https://github.com/user-attachments/assets/98e65ebb-49e3-40da-95c4-66a4865835a4">
+
+## Behind the scene features included in the app:
 
 1. Firebase Authorization for secure access to personal data.
 2. Mobile Integration for phones and tablets.
