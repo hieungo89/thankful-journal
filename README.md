@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# <h1 align="center">ThankFul Journal</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">By Hieu Ngo</p>
 
-## Available Scripts
+## About the Project
 
-In the project directory, you can run:
+> Welcome to our Positive Memory Journal!
+> This web application is designed to help you capture and cherish the positive moments of your day. With our easy-to-use platform, you can:
 
-### `npm start`
+- <b>Journal Your Joys:</b> Record the happy memories and experiences that made your day special.
+- <b>Reflect and Grow:</b> Take a moment to reflect on your daily experiences and gain insights into personal growth.
+- <b>Build a Positive Habit:</b> Cultivate a habit of focusing on the positive aspects of your life, leading to a more optimistic outlook.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Join our community and start journaling your positive memories today!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> Behind the scene features included in the app:
 
-### `npm test`
+1. Firebase Authorization for secure access to personal data.
+2. Mobile Integration for phones and tablets.
+3. Navigation Bar for quick access to different pages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built with:
 
-### `npm run build`
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction">![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge)</a>
+<a href="https://reactjs.org/">![React Badge](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge)</a>
+<a href="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=for-the-badge)</a>
+<a href="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=for-the-badge)</a>
+<a href="https://www.python.org/">![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge)</a>
+<a href="https://www.djangoproject.com/">![Django Badge](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=fff&style=for-the-badge)</a>
+<a href="https://firebase.google.com/">![Firebase Badge](https://img.shields.io/badge/Firebase-DD2C00?logo=firebase&logoColor=fff&style=for-the-badge)</a>
+<a href="https://aws.amazon.com/">![Amazon S3 Badge](https://img.shields.io/badge/Amazon%20S3-569A31?logo=amazons3&logoColor=fff&style=for-the-badge)</a>
+<a href="https://aws.amazon.com/">![Amazon EC2 Badge](https://img.shields.io/badge/Amazon%20EC2-F90?logo=amazonec2&logoColor=fff&style=for-the-badge)</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Supporting Dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<a href="https://prettier.io/">![Prettier Badge](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=fff&style=for-the-badge)</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### This project includes the following sections:
 
-### `npm run eject`
+1. Homepage
+2. About Page
+3. Profile Page (Demo Only)
+4. Login / Create Account
+5. Mobile Integration
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- ## App Features -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- ### Profile Page:
+<table>
+  <tr>
+    <td width="40%">
+      <img src="https://github.com/hieungo89/health-tracker-vercel/assets/104481165/a9c6368c-dbab-4664-8572-842dbca20d60" alt="Profile Page">
+    </td>
+    <td>
+      The profile page contains a centralized hub for users to manage and access their data. The page features intuitive buttons for seamless data entry and navigation, allowing users to record new data and access existing records effortlessly. Additionally, users can edit their profile information conveniently using the settings button located at the top-right corner of their profile.
+    </td>
+  </tr>
+</table> -->
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Thank you for viewing my repo!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Please reach out to me if you find any issues using the site.
